@@ -1,0 +1,26 @@
+# Ignore all files and directories starting with a dot
+.*
+
+# Ignore build artifacts
+*.o
+*.a
+*.so
+
+# Ignore binary files
+*.exe
+*.dll
+
+# Ignore vendor directory
+vendor/
+
+# Ignore any other generated files or directories
+**/gen/
+**/generated/
+**/dist/
+**/build/
+**/bin/
+**/git/
+
+.gitignore
+
+
